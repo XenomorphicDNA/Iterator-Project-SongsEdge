@@ -1,133 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--Important meta data-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:image" content="https://f2.toyhou.se/file/f2-toyhou-se/images/115738414_0047DuaLugGV95t.png"/>
-   <!--<link rel="stylesheet" href="mainstyle.css">-->
+    <meta name="darkreader-lock">
+    <meta name="description" content="Iterator Project file compendium for Local Group Songs Edge. Rain World AU.">
     <title> Iterator Project: SongsEdge</title>
+
+    <meta property="og:title" content="Iterator Project: Songs Edge">
+    <meta property="og:image" content="https://f2.toyhou.se/file/f2-toyhou-se/images/115738414_0047DuaLugGV95t.png"/>
+    <meta property="og:description" content="Iterator Project file compendium for Local Group Songs Edge. Rain World AU.">
     <link rel="icon" href="https://f2.toyhou.se/file/f2-toyhou-se/images/115738414_0047DuaLugGV95t.png">
+
+    <link rel="stylesheet" href="mainstyle.css">
+    <link rel="stylesheet" href="filesstyle.css">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Metrophobic&display=swap" rel="stylesheet">
-
-
-<!-- Page style -->
-    <style>
-body {
-    background-image: url(https://f2.toyhou.se/file/f2-toyhou-se/images/115738999_TOc4TEUskq7oPe0.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed; 
-    }
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-h1   {
-    color: #F4EBFF;
-    font-size: 52px;
-    font-family: Metrophobic, "Courier New";
-    margin: 5px;
-    padding: 6px;
-    }
-p    {
-    color: #81778C;     
-    font-size: 20px;
-    font-family: Metrophobic, "Courier New";
-    margin: 5px;
-    padding: 6px;
-    }
-.border {
-  border: 5px solid #222229;
-}
-
-.seperator{
-    border-top: 5px solid #222229;
-    margin: 30px;
-}
-    
-::selection {
-background: #2b2a2f;
-color: #a195ae;
-}
-</style>
-
-<!-- Container style -->
-<style>
-.container {
-    border: 5px solid #222229;
-    padding: 50px;
-    margin: 80px;
-    margin-left: 250px;
-    margin-right: 250px;
-    background-color: #121214;
-}
-</style>
-
-<!-- intro style -->
-<style>
-.column { 
-    float: left;
-    text-wrap: normal;
-    height: auto;
-}
-.left {
-    width: 35%;
-    padding: 10px;
-}
-.right {
-    width:65%;
-    padding: 10px;
-}
-.leftalt {
-    width: 55%;
-    padding: 5px;
-}
-.rightalt {
-    width: 45%;
-    padding: 5px;
-}
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-  margin: 10px;
-}
-
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
-}
-</style>
-
-<!-- links style -->
-<style>
-    .link {
-        border:2px solid #222229;
-        background-color: transparent;   
-        font-size: 16px;
-        font-family: Metrophobic, "Courier New";
-        padding: 8px 15px;
-        margin: 5px;
-        text-align: center;
-        cursor: pointer;
-        transition-duration: 0.3s;
-    }
-    .link:hover{
-        background-color: #2d2d3647;
-    }
-</style>
 </head>
 
-
-<body>
 <!-- Container 1 -->
- <section>
+<body>
+
 <div class="container">
 
     <div class="row">
@@ -153,7 +50,7 @@ color: #a195ae;
         <div class="column leftalt">
              <div style="text-align: center;">
 	            <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/115733213_00BMgaNMv4HplfK.png" 
-		         alt="Topology map" style="max-width: auto; height: 570px;" class="border">
+		         alt="Topology map" style="max-width: auto; height: 570px; margin: 28px 0px;" class="border">
             </div>
         </div>
 
@@ -168,24 +65,16 @@ color: #a195ae;
             <p>The Local Group also serves as a crossing to the neighboring sector Soft Snow Valley and for communications management
                 with the nearby hydroelectric facility.</p>
         <br>
-        <p style="font-size: 25px; margin-bottom: -10px;"><b>Iterator Project Reports</b></p>
+        <h2>Iterator Project Reports</h2>
             <p style="margin-top: 0px; margin-bottom: 10px;">Reporting Architects: A Hollow Song, Two chimes; An Eye For An Eye; 
                 Light winds over endless valleys</p>
-            <button class="link" style="color: #CD9EFF;">Veil Of Dreams</button>
-            <button class="link" style="color: #FF7A7A;">Visions Of The Past</button>
-            <button href="" class="link" style="color: #9382FF;">Four Blue Flames</button>
-
+            <button class="link" style="color: #CD9EFF;" onclick="window.location.href = 'vodfiles.html';">Veil Of Dreams</button>
+            <button class="link" style="color: #FF7A7A;" onclick="window.location.href = 'votpfiles.html';">Visions Of The Past</button>
+            <button class="link" style="color: #9382FF;" onclick="window.location.href = 'fbffiles.html';">Four Blue Flames</button>
         </div>
     </div>
-        <div class="seperator"></div>
+
 </div>
-</section>
-
-
-
-        
-
-
 
 </body>
 </html>

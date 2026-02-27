@@ -1,0 +1,32 @@
+/*Main stuff*/
+
+/*Container layout*/
+
+.fileleft {
+  width: 25%;
+  padding: 10px;
+}
+
+.fileright {
+  width:75%;
+  padding: 10px;
+}
+
+.offset {
+    padding-left: 7%;
+}
+
+/*Decor*/
+.icondreams {
+    height: 26px;
+    width: width;
+    margin-bottom: -5px;
+    display: inline-block;
+}
+
+.icondreamsname {
+    height: 26px;
+    width: auto;
+    margin-bottom: -8px;
+    display: inline-block;
+}
