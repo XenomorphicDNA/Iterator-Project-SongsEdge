@@ -16,17 +16,97 @@
     padding-left: 7%;
 }
 
+.dataleft {
+  width: 33%;
+  padding: 10px;
+}
+.datamid {
+  width: 33%;
+  padding: 10px;
+}
+.dataright {
+  width: 33%;
+  padding: 10px;
+}
+@media screen and (max-width: 620px) {
+  .column {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .column2 {
+    width: 50%;
+  }
+}
+
+.data {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+  gap: 30px;
+  color: #81778C;     
+  font-size: 20px;
+  font-family: Metrophobic, "Courier New";
+  margin: 5px;
+  padding: 6px;
+}
+
+
 /*Decor*/
 .icondreams {
-    height: 26px;
-    width: width;
-    margin-bottom: -5px;
-    display: inline-block;
+  height: 120%;
+  width: width;
+  margin-bottom:-8px;
+  margin-top: -20px;
+  display: inline-block;
 }
 
 .icondreamsname {
-    height: 26px;
-    width: auto;
-    margin-bottom: -8px;
-    display: inline-block;
+  height: 26px;
+  width: auto;
+  margin-bottom: -7px;
+  display: inline-block;
+}
+
+/*Files*/
+.fileinput {
+  display: none;
+}
+
+.filecontent {
+  max-height: 0;
+  overflow: hidden;
+ transition: 0.5s ease;
+ display: block;
+ background-color: #0a0a0b86;
+ border-width: 0px 2px 2px 2px;
+ border-style: solid;
+ border-color: #222229;
+}
+
+.fileinput:checked ~ .filecontent {
+  max-height: 100px;
+}
+
+.fileheader {
+  padding: 10px;
+  background-color: #0a0a0b44;
+  cursor: pointer;
+  color: #CD9EFF;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Metrophobic, "Courier New";
+  border: 2px solid #222229;
+  display: block;
+  user-select: none;
+}
+.fileheader:hover {
+  background-color: #2d2d361d;
+}
+.filelayout {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 30px;
+  text-align: center
 }

@@ -6,8 +6,9 @@
   padding: 0;
 }
 body {
+    background-color: #121214;
     background-image: url('https://f2.toyhou.se/file/f2-toyhou-se/images/115738999_TOc4TEUskq7oPe0.png');
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
     background-attachment: fixed;
     opacity: 0;
@@ -25,6 +26,12 @@ h1 {
     margin: 0px;
     padding: 0px;
     }
+    
+@media screen and (max-width: 780px) {
+  h1 {
+    font-size: 42px;
+  }
+}
 
 h2 {
   color: #81778C;
@@ -51,6 +58,12 @@ p  {
     padding: 6px;
     }
 
+@media screen and (max-width: 780px) {
+  p {
+    font-size: 18px;
+  }
+}
+
 /*Decor*/
 .border {
   border: 5px solid #222229;
@@ -69,11 +82,18 @@ color: #a195ae;
 /*Container layout*/
 .container {
     border: 5px solid #222229;
-    padding: 50px;
-    margin: 80px;
-    margin-left: 250px;
-    margin-right: 250px;
+    padding: 2.5%;
+    margin: 4.5%;
+    margin-left: 13%;
+    margin-right: 13%;
     background-color: #121214;
+}
+
+@media screen and (max-width: 1170px) {
+  .container {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
 }
 
 .column { 
@@ -104,11 +124,28 @@ color: #a195ae;
   margin: 10px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 970px) {
   .column {
     width: 100%;
   }
 }
+
+@media screen and (min-width: 971px) {
+  .marginmid {
+    margin-top: 20vb;
+  }
+}
+@media screen and (min-width: 1454px) {
+  .marginmid {
+    margin-top: 10vb;
+  }
+}
+@media screen and (min-width: 1700px) {
+  .marginmid {
+    margin-top: 0vb;
+  }
+}
+
 /*Buttons*/
 .link {
   border:2px solid #222229;
